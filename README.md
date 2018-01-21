@@ -240,10 +240,10 @@ Your handy step-by-step guide.
 1. Create a class that conforms to the `UISpec` protocol, and defines the grid units for your design.
 2. To this class add `typealias`es for the generic metric types (`Font`, `GridDimension` etc.) to simple names e.g.
 `typealias Dimension = GridDimension<YourUISpec>`
-3. Define all the colours your design uses in your base UISpec as static properties inside a `private enum` called  `Swatches`. Name them descriptively for the colour they are, or a name applied in your visual designs e.g. `brightPink` or `swatch7`. Do not use names like `highlightColor`. The type of these is `Color`.
-4. Define the logical (functional) colours in your base UISpec as static properties inside an `enum` called `Colors`. Name these by function and *not* colour, e.g. `standardButtonTextColour`, `cardBackgroundColour`. These are what you use in derived specs.
+3. Define all the colours your design uses in your base UISpec as static properties inside a `private enum` called  `Swatches`. Name them descriptively for the colour they are, or a name applied in your visual designs e.g. `brightPink` or `swatch7`. Do not use names like `highlightColour`. The type of these is `Color`.
+4. Define the logical (functional) colours in your base UISpec as static properties inside an `enum` called `Colors` (or `Colours` if you speak actual English). Name these by function and *not* colour, e.g. `standardButtonText`, `cardBackground`. These are what you use in derived specs.
 5. Define your standard units of measurement as top-level static properties on your UI spec, e.g. `one`, `oneQuarter`, using the `Dimension` typealias as the type.
-6. Define your standard metrics, such as `cardBorderWidth` that are uniform across your styling, as properties inside an `enum` called `Dimensions`, with the properties using values from your standard units e.g. `static let border = one + oneQuarter` or `static let border = Dimension(1.25)``
+6. Define your standard metrics, such as `cardBorderWidth` that are uniform across your styling, as properties inside an `enum` called `Dimensions`, with the properties using values from your standard units e.g. `static let border = one + oneQuarter` or `static let border = Dimension(1.25)`
 7. Define your standard fonts inside an `enum` called `Fonts` using a local typalias for `Font` or the `font()` helper functions defined as extensions on your base UI spec (see example code)
 8. Now create new subclasses of your base spec that define the constants with nested enums for namespacing, using values inherited from your base UI Spec.
 
