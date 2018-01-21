@@ -269,5 +269,5 @@ Of course please do spread the word and let us know if you enjoy using this.
 
 ## Who made this?
 
-The UI Spec approach was arrived at by [Marc Palmer](http://marcpalmer.net) of [Montana Floss Co.](https://montanafloss.co) after several iterations of this approach
+The UI Spec approach was arrived at by [Marc Palmer](https://twitter.com/marcpalmerdev) of [Montana Floss Co.](https://montanafloss.co) after several iterations of this approach
 in various apps and client contracts. Valuable feedback was provided by Matt Tancock, Mathieu Alvado and Chris Campbell.
