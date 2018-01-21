@@ -12,7 +12,7 @@ Yes this is pure Swift, so pure it won't work with Objective-C. Time to move on!
 
 Do this if you want your UI-related constants to be out of the way of your main code, as well as making it easy to understand and discuss with your designer — even if you are also the designer. Don't convert a large existing project though, there's little profit in that unless you're in a real mess that is holding up your product’s UI work. You can adopt this in small new parts of existing apps as a way to test the ideas and start doing things better in future.
 
-Perhaps the best things about this approach are that is really very simple and does not introduce a new dependency to your Apps.
+Perhaps the best things about this approach are that it is really very simple and *does not introduce a new dependency* to your Apps.
 
 This approach gives you:
 
