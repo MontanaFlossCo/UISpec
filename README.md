@@ -1,5 +1,7 @@
 # UISpec, a pattern for App styling in pure Swift
 
+![language:Swift](https://img.shields.io/badge/language-Swift-green.svg?style=flat) ![license:MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)
+
 This is a pattern for expressing UI Style Specifications that you get from designers as Swift code for applications developed for Apple platforms.
 
 Notice the use of "pattern" in that sentence. This is not a framework you just import, it is too trivial for that. There is some useful utility code and a set of guidelines as to how to structure your own code to do this.
