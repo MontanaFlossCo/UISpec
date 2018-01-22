@@ -20,7 +20,7 @@ This approach gives you:
 * Design consistency throughout your app.
 * Supports as many different UISpecs as you like. Easily add new ones for new experimental features or a UI rewrite.
 * Hierarchical nesting of design concepts, invaluable when discussing with your designers (tip: don't talk about individual styled items, talk about categories of items that may appear across the whole app).
-* Clean building blocks. Don't use arbitrary colours and fonts in your styling constants. Use only those defined in your base UI Spec, which should match 1:1 what your designs laboured over.
+* Clean building blocks. Don't use arbitrary colours and fonts in your styling constants. Use only those defined in your base UI Spec, which should match 1:1 what your designers laboured over.
 
 There's a [blog post about the high level ideas](https://montanafloss.co/blog/uispec) of this approach.
 
