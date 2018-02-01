@@ -22,7 +22,7 @@ This approach gives you:
 * Hierarchical nesting of design concepts, invaluable when discussing with your designers (tip: don't talk about individual styled items, talk about categories of items that may appear across the whole app).
 * Clean building blocks. Don't use arbitrary colours and fonts in your styling constants. Use only those defined in your base UI Spec, which should match 1:1 what your designers laboured over.
 
-There's a [blog post about the high level ideas](https://montanafloss.co/blog/uispec) of this approach.
+There's a [blog post about the high level ideas](http://www.montanafloss.co/blog/ui-specs-in-swift) of this approach.
 
 **This is not a theming system** per se. There are several ways you could adapt it to support theming. Go and experiment! _(hint: you could use protocols to define the static attributes required for different parts of your UI specs, and switch the types you use at runtime)_
 
